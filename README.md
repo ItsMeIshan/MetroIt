@@ -6,7 +6,7 @@ MetroIt is a metronome app that helps to keep track of the beat it measures the 
 1. In the top-right corner of the page, click Fork. Create a local clone of your fork:
 
 ```bash
-git clone https://github.com/ItsMeIshan/MetroIt.git
+git clone https://github.com/YOUR-USERNAME/MetroIt.git
 ```
 
 2. move to the metronome repository using
