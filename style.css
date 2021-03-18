@@ -1,0 +1,54 @@
+/* removing default styling */
+* {
+  padding: none;
+  margin: none;
+  box-sizing: border-box;
+}
+
+.player {
+  min-height: 100vh;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pads {
+  display: flex;
+  margin: 2rem 0rem;
+}
+.pad {
+  margin: 0rem 1.5rem;
+}
+.play {
+  border-radius: 0.2rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background: #f86d70;
+  color: white;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.tempo {
+  width: 30%;
+}
+.tempo p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.tempo-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 0.3rem;
+  background: #f86d70;
+}
+
+/* keyframes */
+@keyframes anim {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}

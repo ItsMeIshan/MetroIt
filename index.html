@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MetroIt</title>
+  </head>
+  <body>
+    <div class="player">
+      <h1>Metronome</h1>
+      <div class="pads">
+        <div class="pad b0">
+          <img src="./img/halfNote.jpg" alt="" />
+        </div>
+        <div class="pad b1">
+          <img src="./img/wholeNoteEdit.jpg" alt="" />
+        </div>
+        <div class="pad b2">
+          <img src="./img/halfNote.jpg" alt="" />
+        </div>
+        <div class="pad b3">
+          <img src="./img/wholeNoteEdit.jpg" alt="" />
+        </div>
+        <div class="pad b4">
+          <img src="./img/halfNote.jpg" alt="" />
+        </div>
+        <div class="pad b5">
+          <img src="./img/wholeNoteEdit.jpg" alt="" />
+        </div>
+        <div class="pad b6">
+          <img src="./img/halfNote.jpg" alt="" />
+        </div>
+        <div class="pad b7">
+          <img src="./img/wholeNoteEdit.jpg" alt="" />
+        </div>
+      </div>
+      <button class="play">Play</button>
+      <div class="tempo">
+        <input
+          type="range"
+          name="tempo"
+          id="tempo"
+          class="tempo-slider"
+          min="30"
+          max="240"
+        />
+        <p>Tempo <span class="tempo-nr">150</span></p>
+      </div>
+    </div>
+    <audio
+      src="./metronomeSound/kick-acoustic01.wav"
+      class="metroAudio"
+    ></audio>
+    <script src="./app.js"></script>
+  </body>
+</html>
